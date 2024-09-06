@@ -299,4 +299,8 @@ footer table td > i {
 		height:35px;
 		rotate: -90deg;
 	}
+	.waiver {
+		width: 100%;
+		height:45px;
+	}
 }
