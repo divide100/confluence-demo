@@ -255,7 +255,7 @@ footer table td > i {
 	margin-right:25px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 
 	#gym-info .bg-pic {
 		display: none;
@@ -263,12 +263,19 @@ footer table td > i {
 	#gym-info .gym-info-content {
 		width:100%;
 	}
-	#facility .facility-img {
+	#facility .facility-img-wrapper {
+		display: initial;
 		width:100%;
-		display: block;
+	}
+	#facility .facility-img {
+		width:fit-content;
+		height:fit-content;
 	}
 	#facility {
 		overflow: hidden;
+	}
+	#facility .sign-wrapper {
+		width:100%;
 	}
 	footer {
 		height:100%;
