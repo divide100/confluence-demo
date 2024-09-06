@@ -277,10 +277,19 @@ footer table td > i {
 		width:100%;
 	}
 	footer .gym-info {
-		width:fit-content;
-		margin:0 auto;
+		width:100%;
 	}
-	footer .gym-info .my-logo{
-		display: none;
+	footer .gym-info table{
+		float:right;
+	}
+	footer .gym-info .my-logo-wrapper{
+		float:left;
+		position: relative;
+	}
+	footer .gym-info .my-logo {
+		position: absolute;
+		top: 10px;
+		height:35px;
+		rotate: -90deg;
 	}
 }
