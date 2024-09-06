@@ -1,0 +1,256 @@
+.navbar {
+	padding-bottom:0px !important;
+}
+nav.navbar .my-logo{
+	height:40px;
+	margin-right: 24px;
+	padding-bottom:5px;
+}
+nav.navbar-nav {
+	height: 40px;
+}
+nav.navbar .nav-item a:hover{
+	border-bottom: 2px solid #1dc9a1;
+}
+nav.navbar .nav-link.active {
+	border-bottom: 2px solid #1dc9a1;
+}
+nav.navbar {
+	vertical-align: baseline;
+}
+header{
+	width: 100%;
+	z-index: 100;
+	border-bottom: 1px solid #666;
+}
+body{
+	margin:0px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+#news-wrapper {
+	background: #052c65;
+	padding:5px;
+}
+#news {
+	width: 99%;
+	text-align: right;
+	margin: 0px auto !important;
+}
+#news div.news-content {
+	text-align: center;
+	text-decoration: none;
+}
+#gym-info {
+	border-top: 1px solid #333;
+	width:100%;
+	overflow: hidden;
+	background: rgba(0,0,0,.1);
+	color: #333;
+}
+#gym-info .gym-info-content{
+	width: 45%;
+	float:left;
+	padding:20px;
+}
+#gym-info .my-logo {
+	height:75px;
+}
+#gym-info .bg-pic {
+	float:right;
+	width:50%;
+}
+#gym-info button {
+	font-weight: 500;
+	color: #444;
+	background: #64c9ba;
+	border:1px solid #06696c;
+}
+#facility{
+	border-top: 2px solid rgba(0,0,0,.4);
+	width:100%;
+	background: url('./../img/siding.jpg');
+	background-size: 450px;
+	color: #fff;
+}
+#facility .sign-wrapper {
+	width:70%;
+	margin:25px auto;
+}
+#facility .sign {
+	text-align: right;
+	color: #333;
+	margin:0 auto;
+	width:fit-content;
+	height:fit-content;
+	background: rgba(255, 255, 255, .7);
+	box-shadow:4px 4px rgba(0,0,0,.3);
+	border:1px solid #333;
+	padding:20px;
+}
+#facility .sign h6 {
+	text-align: center;
+}
+#facility .sign p {
+	text-align: center;
+}
+#facility .sign h6 > i {
+	margin-left:20px;
+}
+#facility .sign img {
+	height: 75px;
+	z-index: 99;
+}
+.facility-wrapper {
+	height:100%;
+	background: rgba(0, 0, 0, 0.4);
+}
+.facility-cover {
+	position: absolute;
+	width: inherit;
+	height: fit-content;
+	z-index: 100;
+	background: rgba(0, 0, 0, .7);
+}
+.facility-img-wrapper{
+	display: flex;
+	width:fit-content;
+	height:100%;
+	margin:0 auto;
+}
+#facility .facility-img {
+	display:inline-block;
+	margin:20px 20px;
+	width:300px;
+	height:fit-content;
+	overflow: hidden;
+	box-shadow:4px 4px rgba(0,0,0,.3);
+}
+#facility .facility-img img {
+	border: 1px solid rgba(0,0,0,.4);
+	border-bottom-left-radius: var(--bs-border-radius)!important;
+	border-bottom-right-radius: var(--bs-border-radius)!important;
+	width: 100%;
+}
+#facility .facility-banner {
+	height:100px;
+	background-image: url('./../img/canopy-awning.png');
+	background-repeat: repeat-x;
+	background-size: 500px;
+	overflow:none;
+}
+#facility .facility-img .facility-title {
+	text-align: center;
+	width: 100%;
+	background: #06696c;
+	border:1px solid rgba(0, 0, 0, 0.5);
+	text-shadow: 1px 1px #333;
+	margin-bottom:0px;
+	border-top-left-radius: var(--bs-border-radius)!important;
+	border-top-right-radius: var(--bs-border-radius)!important;
+}
+#facility .facility-desc {
+	padding:20px 10px;
+	background: #64c9ba;
+	color:#06696c;
+	border-left:1px solid rgba(0, 0, 0, 0.5);
+	border-right:1px solid rgba(0, 0, 0, 0.5);
+	font-weight: 400;
+	display: none;
+}
+#facility .facility-desc a{
+	color :#06696c;
+}
+#gym-backdrop{
+	width:100%;
+	height:550px;
+	background-image: url('./../img/gym-backdrop.jpg');
+	background-size: cover !important;
+}
+
+#gym-backdrop .my-logo{
+	height: 120px;
+	padding:10px;
+}
+
+#gym-backdrop .my-logo-wrapper {
+	width: 100%;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	text-align: center;
+	position:relative;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+#gym-backdrop h1{
+	border-bottom: 1px solid #333;
+	color: #64c9ba;
+	text-align: center;
+	font-size: 50px;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.2);
+	text-shadow: 3px 3px #333;
+}
+#gym-backdrop .grey{
+	width:100%;
+	height:100%;
+	padding-top: 200px;
+	background: rgba(0, 0, 0, 0.2);
+}
+footer {
+	width: 100%;
+	height:175px;
+	background: #64c9ba;
+	color: #06696c;
+	border-top: 1px solid #06696c;
+}
+footer .my-logo-wrapper {
+	display: inline-block;
+	float:right;
+}
+footer .my-logo {
+	height:75px;
+	margin:20px auto;
+}
+
+footer .gym-info {
+	display: inline-block;
+	width: 50%;
+	padding: 0px 40px;
+	padding-top:20px;
+}
+footer .gym-info table {
+	margin:0 auto;
+	font-size:13px;
+	float:left;
+}
+footer .gym-info a {
+	text-decoration: none!important;
+	color:#06696c;
+}
+footer .gym-info p {
+	float: left;
+	width:100%;
+	text-align: center;
+	font-size: 10px;
+	margin-bottom:0px;
+}
+footer .map {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	float: left;
+	border-right:1px solid #06696c;
+}
+footer table td > i {
+	font-size: 15px;
+}
+.social-bar {
+	font-size: 20px;
+}
+.social-bar a {
+	text-decoration: none!important;
+	color:inherit;
+}
+.social-bar i {
+	margin-right:25px;
+}
