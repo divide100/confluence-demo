@@ -185,9 +185,9 @@ body{
 	border-bottom: 1px solid #333;
 	color: #64c9ba;
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 	margin: 0 auto;
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.6);
 	text-shadow: 3px 3px #333;
 }
 #gym-backdrop .grey{
@@ -256,7 +256,9 @@ footer table td > i {
 }
 
 @media screen and (max-width: 650px) {
-
+	#gym-backdrop h1 {
+		font-size: 36px;
+	}
 	#gym-info .bg-pic {
 		display: none;
 	}
