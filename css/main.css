@@ -254,3 +254,33 @@ footer table td > i {
 .social-bar i {
 	margin-right:25px;
 }
+
+@media screen and (max-width: 500px) {
+
+	#gym-info .bg-pic {
+		display: none;
+	}
+	#gym-info .gym-info-content {
+		width:100%;
+	}
+	#facility .facility-img {
+		width:100%;
+		display: block;
+	}
+	#facility {
+		overflow: hidden;
+	}
+	footer {
+		height:100%;
+	}
+	footer .map {
+		width:100%;
+	}
+	footer .gym-info {
+		width:fit-content;
+		margin:0 auto;
+	}
+	footer .gym-info .my-logo{
+		display: none;
+	}
+}
